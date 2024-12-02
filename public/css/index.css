@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mrs+Saint+Delafield&family=Space+Mono&display=swap');
+body{
+  background-color: #121212;
+  color: white;
+  user-select: none;
+  overflow-x: hidden;
+}
+#Title{
+    font-size: 28px;
+    font-family: 'Major Mono Display', 'Times New Roman', 'Helvetica', 'Arial';
+    font-weight: 900 bolder;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+#Nav{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 14px;
+}
+.Link{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.Link:hover{
+  transform: scale(1.05);
+  color: rgb(209, 209, 209);
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  padding-top: 14px;
+}
+footer p{
+  margin: 0;
+  padding: 0;
+  margin-left: 10px
+}
+#TitleFooter{
+  font-size: 16px;
+  font-family: 'Major Mono Display', 'Times New Roman', 'Helvetica', 'Arial';
+  font-weight: 900 bolder;
+  display: inline-block;
+  vertical-align: auto;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
